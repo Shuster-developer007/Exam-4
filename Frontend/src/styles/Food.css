@@ -1,0 +1,64 @@
+.cardbard {
+    width: 300px;
+    height: 350px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 20px rgba(128, 128, 128, 0.127);
+    border: none;
+}
+
+.topdev img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.bottom {
+    margin-top: 1rem;
+}
+
+.UmmumiyFood {
+    background:url("../assets/background.jpg") center no-repeat;
+    background-size: cover;
+    height: 450px;
+}
+
+
+.no {
+    padding-top: 2rem;
+}
+
+.bottom {
+    padding:0 1rem;
+
+}
+
+
+.p1 {
+    font-weight: 600;
+    width: 450px;
+}
+
+.cardio {
+    width: 300px;
+}
+
+
+.cardio img {
+    width: 300px;
+    height: 300px;
+    border-radius: 8px;
+}
+
+
+
+
+.p2 {
+    width: 600px;
+}
+
+
+
+.counter {
+    width: 30px;
+    height: 30px;
+    border: none;
+}

@@ -1,0 +1,179 @@
+
+
+.Ummumiy {
+    background: url("../assets/burger.jpg") center no-repeat  ;
+    background-size: cover;
+    height: 670px;
+}
+
+.main-section {
+    background-color: rgba(128, 128, 128, 0.144);
+}
+
+.twriter {
+    margin-top: 9rem;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.images {
+    display: flex;
+}
+
+.images img {
+    width: 380px;
+    height: 450px;
+}
+
+.div img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+
+.custom p {
+    width: 300px;
+}
+
+
+.custom {
+    width: 350px;
+    padding: 1rem 1rem;
+    box-shadow: 0px 0px 20px rgba(128, 128, 128, 0.104);
+    height: 220px;
+}
+
+.c-card img {
+    width: 370px;
+    height: 230px;
+    border-radius: 15px;
+}
+
+.c-card h3 {
+    width: 370px;
+    margin-top: -0.5rem;
+}
+
+.kn {
+    color: grey;
+}
+
+.c-card p {
+    width: 370px;
+}
+
+.c-card {
+    width: 370px;
+}
+
+.c-cards {
+    gap: 3rem;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.plf {
+    width: 900px;
+}
+
+
+.customers {
+    gap: 6rem;
+}
+
+
+
+.pg {
+    margin-top: -0.7rem;
+    color:  grey;
+}
+
+
+.cards {
+    gap: 10rem;
+}
+
+.nimadir {
+    background-color:red;
+    height: 400px;
+}
+
+.vor img {
+    max-width: 100%;
+    max-height: 100%;
+    height: 400px;
+}
+
+.Card {
+    width: 250px;
+    height: 370px;
+}
+
+.para {
+    width: 400px;
+}
+
+.th {
+    width: 170px;
+    margin: 0 auto;
+}
+
+.Card img {
+    width: 270px;
+    height: 250px;
+}
+
+
+ul {
+    list-style: none;
+}
+
+
+.kgf {
+    height: 400px;
+}
+
+.very {
+    margin-left: 0;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+.card-div h3 {
+    position: absolute;
+    left: 30%;
+}
+
+.card-div img {
+    border-radius: 14px;
+}
+
+.alohida {
+    padding: 2rem 0;
+}
+
+
+.yandex {
+    margin-top: 10rem;
+    color: rgb(204, 188, 188);
+}
+
+.alohida .card-div {
+    width: 440px;
+    position: relative;
+    height: 250px;
+    border-radius: 14px;
+    box-shadow: 0px 0px 20px rgba(128, 128, 128, 0.196);
+}
+
+
+

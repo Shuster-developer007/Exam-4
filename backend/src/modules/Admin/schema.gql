@@ -1,0 +1,25 @@
+type Query {
+    admin:Admin
+}
+
+
+type Admin {
+    id: ID
+    admin_name:String,
+    admin_password:String
+}
+
+
+type Mutation {
+    login(admin_name:String! , admin_password:String!):Response!
+    createAdmin(admin_name:String! , admin_password:String!):String!
+}
+
+
+type Response {
+    success: Boolean!,
+    message:String! , 
+    data: Admin!,
+    token: String!
+}
+

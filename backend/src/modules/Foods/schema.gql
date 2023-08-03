@@ -1,0 +1,30 @@
+type Query {
+    foods(res_id:ID!):[Food]
+    foodAll:[Food]!
+}
+
+
+type Food {
+    _id:ID!
+    food_name:String!
+    food_price:String!
+    food_image:String!
+    res_id:[Restaurant]!
+}
+
+scalar Upload
+
+
+type Mutation {
+    createFood(food_name:String! , food_price:String! , food_image:Upload! , res_id:ID):FoodResponse!
+    updateFood(food_name:String! , id:ID):String!
+    deletedFood(id:ID):String!
+}
+
+type FoodResponse {
+    success:Boolean!
+    message:String!
+    data:Food
+}
+
+

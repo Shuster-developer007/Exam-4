@@ -1,0 +1,33 @@
+type Query {
+    restaurant: [Restaurant!]
+} 
+
+scalar Upload
+
+type File {
+    filename: String!
+    mimetype: String!
+    encoding: String!
+}
+
+
+type Restaurant {
+    _id: ID,
+    res_name:String,
+    file:String!
+    created_at:String!
+}
+
+
+type Mutation {
+    createRes(res_name:String! , file:Upload):RestaurantResponse!
+    updateRes(res_name:String! , id:ID):String!
+    deletedRes(id:ID):String!
+}
+
+
+type RestaurantResponse {
+    success:Boolean!,
+    message:String!,
+    data:Restaurant
+}

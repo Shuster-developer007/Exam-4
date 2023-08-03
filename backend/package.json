@@ -1,0 +1,30 @@
+{
+  "name": "imtihon-4-oy-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "nodemon src/server.ts",
+    "start": "node dist/server.ts",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/server": "^4.9.0",
+    "@graphql-tools/schema": "^10.0.0",
+    "@types/graphql-upload": "^16.0.0",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "graphql": "^16.7.1",
+    "graphql-upload-ts": "^2.0.9",
+    "jsonwebtoken": "^9.0.1",
+    "mongoose": "^7.4.1"
+  },
+  "devDependencies": {
+    "@types/jsonwebtoken": "^9.0.2"
+  }
+}

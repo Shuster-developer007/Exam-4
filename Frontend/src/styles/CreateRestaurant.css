@@ -1,0 +1,18 @@
+.create-res {
+    margin-left: 20%;
+    width: 80%;
+} 
+
+
+
+.gore {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+
+.klsd {
+    margin-left: 6rem;
+}
